@@ -11,6 +11,8 @@ I have built an **Excel-based analytics tool** using custom columns, formulas, a
 
 <img width="1151" height="616" alt="image" src="https://github.com/user-attachments/assets/ba177083-55c7-4eab-9bf8-8efbdc89df22" />
 
+*(Coworker IDs have been altered to protect personal and data privacy)*
+
 The completed pivot table above brings the chosen metrics together to provide a coworker-level view of order fulfillment productivity. The report can be filtered by date, order type, and pick area, allowing performance to be analyzed across different periods and areas of the warehouse.
 
 <img width="830" height="514" alt="image" src="https://github.com/user-attachments/assets/412d21d7-457e-4fa5-b3f6-15df6ed7387b" />
