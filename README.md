@@ -13,7 +13,8 @@ I have built an **Excel based analytics tool** using custom columns, formulas, a
 
 <img width="820" height="527" alt="image" src="https://github.com/user-attachments/assets/37fba4d8-dae0-4986-93a0-322c24e00754" />
 
-<img width="815" height="519" alt="image" src="https://github.com/user-attachments/assets/cf626a04-8af7-4424-a7a5-ae961641f3bb" />
+<img width="839" height="517" alt="image" src="https://github.com/user-attachments/assets/250b823a-ca54-494f-b720-75d41c7aca35" />
+
 
 ## Identifying Unique Orders Picked
 As stated, the raw order fulfillment reporting is detailed at the orderline level, meaning a single order can contain several rows representing different products. If a coworker picks five products for one order, this should be represented as one order, not five.
