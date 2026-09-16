@@ -19,7 +19,7 @@ The completed pivot table above brings the chosen metrics together to provide a 
 
 <img width="833" height="515" alt="image" src="https://github.com/user-attachments/assets/454a06a9-b16a-4c14-bdbc-08836ae54857" />
 
-The charts provide two different views of coworker picking performance. Total weight picked provides context around overall workload, while orderlines per hour provides a standardized productivity metric that accounts for differences in time spent picking.
+The charts above provide two different views of coworker picking performance. Total weight picked provides context around overall workload, while orderlines per hour provides a standardized productivity metric that accounts for differences in time spent picking.
 
 <img width="839" height="517" alt="image" src="https://github.com/user-attachments/assets/250b823a-ca54-494f-b720-75d41c7aca35" />
 
