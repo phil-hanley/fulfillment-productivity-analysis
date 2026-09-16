@@ -2,10 +2,10 @@
 Excel-based analysis of raw warehouse order fulfillment data to measure pick volume and productivity at the coworker level.
 
 ## Business Problem
-Our raw order fulfillment reporting shows detailed picking data at the orderline-level, but does not provide an easy way to compare our fulfillment coworkers' picking performance. Because one single customer order can contain multiple orderlines, pick areas, coworkers, tasks, and simple row counts are not enough to produce insightful picking data analytics that enable us to track and manage coworker performance.
+Our raw order fulfillment reporting shows detailed picking data at the orderline-level, but does not provide an easy way to compare our fulfillment coworkers' picking performance. Because one single customer order can contain multiple orderlines, pick areas, coworkers, and tasks, simple row counts are not enough to produce insightful picking data analytics that enable us to track and manage coworker performance.
 
 ## Solution
-I have built an **Excel based analytics tool** using custom columns, formulas, and a pivot table to transform the raw data into metrics that show order picking statistics at the coworker level. 
+I have built an **Excel-based analytics tool** using custom columns, formulas, and a pivot table to transform the raw data into metrics that show order picking statistics at the coworker level. 
 
 ## Dashboard and Analysis
 
