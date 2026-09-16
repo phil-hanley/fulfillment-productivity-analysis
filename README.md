@@ -23,7 +23,7 @@ The charts above provide two different views of coworker picking performance. To
 
 <img width="839" height="517" alt="image" src="https://github.com/user-attachments/assets/250b823a-ca54-494f-b720-75d41c7aca35" />
 
-The scatter plot compares time spent picking with total orderlines picked, making it easier to view differences in productivity and outliers among coworkers that have similar amounts of picking activity.
+The scatter plot compares time spent picking with total orderlines picked for our 10 main coworkers, making it easier to view differences in productivity and outliers among coworkers that have similar amounts of picking activity.
 
 ## Identifying Unique Orders Picked
 As stated, the raw order fulfillment reporting is detailed at the orderline level, meaning a single order can contain several rows representing different products. If a coworker picks five products for one order, this should be represented as one order, not five.
