@@ -64,3 +64,22 @@ The `MAXIFS` function of the formula locates the final **Orderline Picked (AL)**
 ```
 
 This subtracts the **Time Started (AI)** from the time on the last **Orderline Picked (AL),** giving us the total time from the moment the coworker went into the pick task until the last product on the pick task was scanned.
+
+## Key Takeaways & Demonstrated Performance Management
+
+We can see in the scatter plot that CW005 is an outlier when comparing **Time Spent Picking vs. Orderlines Picked**. While this coworker completed a similar number of orderlines as their peers, they recorded substantially more time spent picking. For our team, this has a negative impact on one of our major KPIs, which is **Orderlines per Hour**. 
+
+After noticing this, I took a conversation with this coworker to see what was causing this difference. This coworker informed me that they often select several pick tasks at a time and then proceed to complete each task one by one. For example, if 10 picking tasks were selected at 9:00 AM, the first might be completed at 9:10 AM while the final task might not be completed until 11:00 AM. Because picking time is calculated from when each task is initially selected, the final task would appear in the data as having taken approximately two hours to complete.
+
+I was able to use the data to explain to the coworker how this workflow was affecting their measured productivity and our Orderlines per Hour KPI. The coworker understood the impact and agreed to select and complete one designated picking task at a time going forward.
+
+## Skills Demonstrated
+
+- Intermediate Excel formulas and functions (`COUNTIFS`, `MAXIFS`, `IF`, `AND`)
+- PivotTables and charts for data visualization and analysis
+- Data cleaning and transformation
+- Helper columns and conditional logic
+- Productivity and operational performance analysis
+- KPI development and performance measurement
+- Identification and assessment of operational outliers
+- Translating raw operational data into actionable insights
