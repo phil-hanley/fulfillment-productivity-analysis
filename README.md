@@ -7,13 +7,19 @@ Our raw order fulfillment reporting shows detailed picking data at the orderline
 ## Solution
 I have built an **Excel based analytics tool** using custom columns, formulas, and a pivot table to transform the raw data into metrics that show order picking statistics at the coworker level. 
 
-<img width="1094" height="536" alt="image" src="https://github.com/user-attachments/assets/35948b8b-5153-44ea-ad32-a9b86f92955f" />
+<img width="1151" height="616" alt="image" src="https://github.com/user-attachments/assets/ba177083-55c7-4eab-9bf8-8efbdc89df22" />
+
+The completed pivot table above brings the chosen metrics together to provide a coworker-level view of order fulfillment productivity. The report can be filtered by date, order type, and pick area, allowing performance to be analyzed across different periods and areas of the warehouse.
 
 <img width="830" height="514" alt="image" src="https://github.com/user-attachments/assets/412d21d7-457e-4fa5-b3f6-15df6ed7387b" />
 
 <img width="833" height="515" alt="image" src="https://github.com/user-attachments/assets/454a06a9-b16a-4c14-bdbc-08836ae54857" />
 
+The charts provide two different views of coworker picking performance. Total weight picked provides context around overall workload, while orderlines per hour provides a standardized productivity metric that accounts for differences in time spent picking.
+
 <img width="839" height="517" alt="image" src="https://github.com/user-attachments/assets/250b823a-ca54-494f-b720-75d41c7aca35" />
+
+The scatter plot compares time spent picking with total orderlines picked, making it easier to identify differences in productivity and outliers among coworkers with similar amounts of picking activity.
 
 ## Identifying Unique Orders Picked
 As stated, the raw order fulfillment reporting is detailed at the orderline level, meaning a single order can contain several rows representing different products. If a coworker picks five products for one order, this should be represented as one order, not five.
