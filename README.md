@@ -7,6 +7,14 @@ Our raw order fulfillment reporting shows detailed picking data at the orderline
 ## Solution
 I have built an **Excel based analytics tool** using custom columns, formulas, and a pivot table to transform the raw data into metrics that show order picking statistics at the coworker level. 
 
+<img width="1094" height="536" alt="image" src="https://github.com/user-attachments/assets/35948b8b-5153-44ea-ad32-a9b86f92955f" />
+
+<img width="830" height="514" alt="image" src="https://github.com/user-attachments/assets/412d21d7-457e-4fa5-b3f6-15df6ed7387b" />
+
+<img width="820" height="527" alt="image" src="https://github.com/user-attachments/assets/37fba4d8-dae0-4986-93a0-322c24e00754" />
+
+<img width="815" height="519" alt="image" src="https://github.com/user-attachments/assets/cf626a04-8af7-4424-a7a5-ae961641f3bb" />
+
 ## Identifying Unique Orders Picked
 As stated, the raw order fulfillment reporting is detailed at the orderline level, meaning a single order can contain several rows representing different products. If a coworker picks five products for one order, this should be represented as one order, not five.
 To account for this, I created a **Unique Orders Picked** column in the raw data using `COUNTIFS` to analyze the **order number** and **user picking** columns. The first occurrence of each coworker-order combination is assigned a value of 1, while all subsequent occurrences are assigned 0. This column, which is then summed in the values field of the pivot table, provides the number of unique orders each coworker contributed to.
