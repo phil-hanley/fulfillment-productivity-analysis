@@ -7,6 +7,8 @@ Our raw order fulfillment reporting shows detailed picking data at the orderline
 ## Solution
 I have built an **Excel based analytics tool** using custom columns, formulas, and a pivot table to transform the raw data into metrics that show order picking statistics at the coworker level. 
 
+## Dashboard and Analysis
+
 <img width="1151" height="616" alt="image" src="https://github.com/user-attachments/assets/ba177083-55c7-4eab-9bf8-8efbdc89df22" />
 
 The completed pivot table above brings the chosen metrics together to provide a coworker-level view of order fulfillment productivity. The report can be filtered by date, order type, and pick area, allowing performance to be analyzed across different periods and areas of the warehouse.
